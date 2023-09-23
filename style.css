@@ -1,0 +1,254 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    width:100vw;
+    position:sticky;
+    top:0px;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    box-sizing:border-box;
+}
+nav .a{
+    
+    margin:18px 0px 0px 29px;
+    background-size:contain;
+}
+nav div a{
+    text-decoration: none;
+    color:black;
+    padding-inline:5px;
+    
+}
+
+nav .bi{
+    margin:35px 0px 0px -1575px;
+}
+nav div a img{
+    text-align:center;
+    vertical-align: middle;
+    
+}
+nav div button{
+    border:none;
+    background-color: #184655;
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-radius:50px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    margin:31px 80px 0px 0px;
+font-size: 30px;
+font-family: Roboto;
+font-weight: 500;
+
+}
+.hero{
+    display:flex;
+    Width:1386px;
+    height:742px;
+    border-radius: 50px;
+    background-image: url("assests/Rectangle\ 31.jpg");
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    margin: 45px;
+}
+.hero h1{
+    
+    width:424px;
+    height:136px;
+   
+    color: #184655;
+    font-family: Poppins;
+font-size: 45px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+}
+ .s{
+   border-radius:19px;
+   background-color: green;
+   width:546px;
+   
+   margin:20px 0px;
+   overflow:hidden;
+display:flex;
+}
+
+.hero .s button{
+   
+    background-color:#184655;
+    border-radius:0px 19px 19px 0px;
+    flex:1;
+    text-align:center;
+color: white;
+ font-size: 22px;
+ font-family: Poppins;
+ font-weight: 700;
+ line-height: 118%;
+ border:none;
+ padding:25px 10px;
+ cursor:pointer;
+}
+.hero .s input{
+    
+   flex:2;
+   padding:10px 30px;
+   border:none;
+   color:#727272;
+   font-size:22px;
+   font-weight:400;
+   line-height:118%;
+   outline:none;
+}
+.hero .tag{
+    
+    display:flex;
+width: 331px;
+height: 25px;
+
+justify-content: space-between;
+color:#8da1ad;
+}
+.blog{
+    display:flex;
+    width:1386px;
+    height:512px;
+    background-color:#f9fcf1;
+    border-radius:40px;
+    margin-top:27px;
+    margin:45px;
+}
+.blog img{
+    border-radius:15px;
+}
+.blog h1{
+    font-family: Roboto;
+font-size: 42px;
+font-weight: 500;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+width:613px;
+height:43px;
+margin:39px 42px 10px 42px;
+}
+.blog .author{
+    display:flex;
+    justify-content: space-between;
+color: rgba(110.50, 110.22, 110.22, 0.84);
+ font-size: 25px;
+ font-family: Roboto;
+ font-weight: 500;
+ word-wrap: break-word;
+ margin:25px 42px 0px 42px;
+
+}
+.blog .content{
+    color: #464343;
+font-size: 28px;
+font-family: Roboto;
+font-weight: 400;
+word-wrap: break-word;
+margin:4px 26px 41px 42px;
+}
+.More_blog{
+    display:flex;
+    
+}
+.card{
+    width:431.56px;
+    height:469px;
+    box-shadow: 0px 2px 20px -1px;
+    border-radius:20px;
+    margin:27px;
+}
+.card .img{
+    border-radius:20px;
+}
+.card h1{
+    color: #4A4848;
+font-size: 25px;
+font-family: Roboto;
+font-weight: 500;
+word-wrap: break-word;
+margin:14.21px 19.26px 6px 18.09px;
+}
+.card .ss{
+    color: rgba(110.50, 110.22, 110.22, 0.84);
+font-size: 18px;
+font-family: Roboto;
+font-weight: 500;
+word-wrap: break-word;
+display:flex;
+justify-content: space-between;
+margin:0px 19px 12.73px 18.09px;
+}
+.card .more_content{
+    color: #464343;
+font-size: 16px;
+font-family: Segoe UI;
+font-weight: 400;
+word-wrap: break-word;
+margin:0px 19.38px 1.7px 18.09px;
+}
+.card .full{
+    color: #213949;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 300;
+word-wrap: break-word;
+text-align:right;
+margin:0px 27.53px 14px 0px;
+}
+footer{
+    display:flex;
+    align-items:center;
+    margin:45px;
+    height:707px;
+    justify-content:center;
+    border-radius: 30px;
+    background: linear-gradient(
+        136deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+      flex-wrap:wrap;
+      background-image: url("assests/Rectangle\ 31.jpg");
+}
+.a{
+   color:black;
+   font-size:40px;
+   text-align: center;
+   font-weight:300;
+
+}
+.b{
+    color:black;
+    font-size:57px;
+    font-weight:500;
+    text-align:center;
+}
+.c{
+    color:black;
+   font-size:40px;
+   text-align: center;
+   font-weight:400; 
+}
+footer button{
+    color:white;
+    font-size:30px;
+   text-align: center;
+   font-weight:500; 
+   background: linear-gradient(122deg, #2c56aa 0%, #3bb08b 100%);
+  box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+  border:none;
+  padding:5px 20px;
+  margin-top:70px;
+  border-radius:23.5px;
+}
